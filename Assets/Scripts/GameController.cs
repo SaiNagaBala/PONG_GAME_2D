@@ -27,7 +27,7 @@ public class GameController : MonoBehaviour
         score1 = score1 + scoreValue1;
         score1Text.text = score1.ToString();
         ResetGame();
-        if (score1 == 5)
+        if (score1 == 10)
         {
             resetPanel.SetActive(true);
             Debug.Log("Player 1 WON");
@@ -39,7 +39,7 @@ public class GameController : MonoBehaviour
         score2 = score2 + scoreValue2;
         score2Text.text = score2.ToString();
         ResetGame();
-        if (score2 == 5)
+        if (score2 == 10)
         {
             resetPanel.SetActive(true);
             Debug.Log("Player 2 WON");
